@@ -20,7 +20,9 @@ export const Footer = ({ className }: FooterProps) => {
                 text={'Twitter'}
             />
             <Label
-                imgSrc={'https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg'}
+                imgSrc={
+                    'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png'
+                }
                 text={'Facebook'}
             />
             <Label
