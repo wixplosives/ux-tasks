@@ -1,8 +1,5 @@
 .root {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  column-gap: 30px;
   padding: 30px;
 }
 .imgbox {
@@ -46,3 +43,15 @@
   color: #394a58;
 }
 
+.cards {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2px;
+  margin-top: 32px;
+}
+.big_title {
+  color: #3b3b3b;
+  text-decoration-style: solid;
+  text-decoration-color: #0075be;
+  font-size: 70px;
+}
