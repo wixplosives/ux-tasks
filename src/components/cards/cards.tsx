@@ -27,9 +27,9 @@ export const Cards = ({ className }: CardsProps) => {
                     <div>
                         <h1 className={styles.title}>Eevee</h1>
                         <p className={styles.paragraph}>
-                            The Greater Yellowstone Ecosystem is home to both mule deer and
-                            white-tailed deer. The two deer species are differentiated by their
-                            antler shape, and tail size and appearance.
+                            Eevee is a Normal-type Pokémon introduced in Generation I.
+                             
+                            Eve is also Dana's daughter. Her husband didn't tell her Eve was a Pokemon name
                         </p>
                     </div>
                 </div>
@@ -44,9 +44,9 @@ export const Cards = ({ className }: CardsProps) => {
                     <div>
                         <h1>Squirtle</h1>
                         <p>
-                            The Greater Yellowstone Ecosystem is home to both mule deer and
-                            white-tailed deer. The two deer species are differentiated by their
-                            antler shape, and tail size and appearance.
+                            Squirtle is a Water-type Pokémon introduced in Generation I. It evolves
+                            into Wartortle starting at level 16. It is one of the three First
+                            partner Pokémon that can be chosen in Kanto region.
                         </p>
                     </div>
                 </div>
@@ -61,9 +61,11 @@ export const Cards = ({ className }: CardsProps) => {
                     <div>
                         <h1>Gengar</h1>
                         <p>
-                            The Greater Yellowstone Ecosystem is home to both mule deer and
-                            white-tailed deer. The two deer species are differentiated by their
-                            antler shape, and tail size and appearance.
+                            Gengar is a Ghost/Poison-type Pokémon introduced in Generation I. is a
+                            shadow-like, round-bodied Pokémon with two large, pointedears and short
+                            spikes lining its back. Gengar has two red eyes and atoothy, sinister
+                            smile. It has claws on its hands. Gengar stands on itstwo short legs,
+                            but it can Levitate as well.
                         </p>
                     </div>
                 </div>
