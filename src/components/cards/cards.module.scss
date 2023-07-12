@@ -1,0 +1,22 @@
+.root {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  padding: 30px;
+}
+.imagbox {
+  width: 400px;
+  height: 300px;
+}
+.imag {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  background-color: #f4f4f4;
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 20px;
+}
