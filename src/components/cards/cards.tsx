@@ -12,16 +12,16 @@ export interface CardsProps {
 export const Cards = ({ className }: CardsProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <div className={styles.container}>
+            <div className={classNames(styles.container, styles.container_style)}>
                 <div className={styles.imgbox}>
                     <img
-                        src="https://cdn.dribbble.com/users/4335179/screenshots/16490525/media/5dea3bbcf3939ddd6f5351a8efc493a2.jpg"
+                        src="https://files.cults3d.com/uploaders/16165612/illustration-file/d19b7a5e-2e51-40bf-baa6-d25e8bd9ef9f/Eevee_Stand02.jpg"
                         alt=""
                         className={styles.img}
                     />
                 </div>
                 <div>
-                    <h1 className={styles.title}>Happy Deer </h1>
+                    <h1 className={styles.title}>Eevee</h1>
                     <p className={styles.paragraph}>
                         The Greater Yellowstone Ecosystem is home to both mule deer and white-tailed
                         deer. The two deer species are differentiated by their antler shape, and
@@ -29,16 +29,16 @@ export const Cards = ({ className }: CardsProps) => {
                     </p>
                 </div>
             </div>
-            <div>
+            <div className={classNames(styles.container, styles.container_style)}>
                 <div className={styles.imgbox}>
                     <img
-                        src="https://cdn.dribbble.com/users/4335179/screenshots/16490525/media/5dea3bbcf3939ddd6f5351a8efc493a2.jpg"
+                        src="https://cdn.dribbble.com/users/2598141/screenshots/14640422/media/4c945302d9f2e168cf1c96765589a5bc.png"
                         alt=""
                         className={styles.img}
                     />
                 </div>
                 <div>
-                    <h1>Happy Deer </h1>
+                    <h1>Gengar</h1>
                     <p>
                         The Greater Yellowstone Ecosystem is home to both mule deer and white-tailed
                         deer. The two deer species are differentiated by their antler shape, and
@@ -46,16 +46,16 @@ export const Cards = ({ className }: CardsProps) => {
                     </p>
                 </div>
             </div>
-            <div>
+            <div className={classNames(styles.container, styles.container_style)}>
                 <div className={styles.imgbox}>
                     <img
-                        src="https://cdn.dribbble.com/users/4335179/screenshots/16490525/media/5dea3bbcf3939ddd6f5351a8efc493a2.jpg"
+                        src="https://cdn.dribbble.com/users/1147613/screenshots/15390615/media/0197f9d885df23a6ab039eedebc40f5b.png"
                         alt=""
                         className={styles.img}
                     />
                 </div>
                 <div>
-                    <h1>Happy Deer </h1>
+                    <h1>Squirtle</h1>
                     <p>
                         The Greater Yellowstone Ecosystem is home to both mule deer and white-tailed
                         deer. The two deer species are differentiated by their antler shape, and
