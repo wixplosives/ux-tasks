@@ -5,13 +5,14 @@
   column-gap: 30px;
   padding: 30px;
 }
-.imagbox {
+.imgbox {
   width: 400px;
   height: 300px;
 }
-.imag {
+.img {
   width: 100%;
   height: 100%;
+  border-radius: 11px;
 }
 .container {
   background-color: #f4f4f4;
@@ -19,4 +20,18 @@
   height: 500px;
   padding: 20px;
   border-radius: 20px;
+  box-shadow: 6.36px 6.36px black;
+  border: 2px solid black;
+}
+.paragraph {
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #4d7372;
+  line-height: 21px;
+}
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: Tahoma, sans-serif;
+  color: #394a58;
 }

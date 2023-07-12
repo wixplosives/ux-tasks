@@ -13,11 +13,28 @@ export const Cards = ({ className }: CardsProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles.container}>
-                <div className={styles.imagbox}>
+                <div className={styles.imgbox}>
                     <img
                         src="https://cdn.dribbble.com/users/4335179/screenshots/16490525/media/5dea3bbcf3939ddd6f5351a8efc493a2.jpg"
                         alt=""
-                        className={styles.imag}
+                        className={styles.img}
+                    />
+                </div>
+                <div>
+                    <h1 className={styles.title}>Happy Deer </h1>
+                    <p className={styles.paragraph}>
+                        The Greater Yellowstone Ecosystem is home to both mule deer and white-tailed
+                        deer. The two deer species are differentiated by their antler shape, and
+                        tail size and appearance.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div className={styles.imgbox}>
+                    <img
+                        src="https://cdn.dribbble.com/users/4335179/screenshots/16490525/media/5dea3bbcf3939ddd6f5351a8efc493a2.jpg"
+                        alt=""
+                        className={styles.img}
                     />
                 </div>
                 <div>
@@ -29,29 +46,12 @@ export const Cards = ({ className }: CardsProps) => {
                     </p>
                 </div>
             </div>
-            <div className={styles.container}>
-                <div className={styles.imagbox}>
+            <div>
+                <div className={styles.imgbox}>
                     <img
                         src="https://cdn.dribbble.com/users/4335179/screenshots/16490525/media/5dea3bbcf3939ddd6f5351a8efc493a2.jpg"
                         alt=""
-                        className={styles.imag}
-                    />
-                </div>
-                <div>
-                    <h1>Happy Deer </h1>
-                    <p>
-                        The Greater Yellowstone Ecosystem is home to both mule deer and white-tailed
-                        deer. The two deer species are differentiated by their antler shape, and
-                        tail size and appearance.
-                    </p>
-                </div>
-            </div>
-            <div className={styles.container}>
-                <div className={styles.imagbox}>
-                    <img
-                        src="https://cdn.dribbble.com/users/4335179/screenshots/16490525/media/5dea3bbcf3939ddd6f5351a8efc493a2.jpg"
-                        alt=""
-                        className={styles.imag}
+                        className={styles.img}
                     />
                 </div>
                 <div>
