@@ -1,5 +1,6 @@
 import styles from './cards.module.scss';
 import classNames from 'classnames';
+import { TypeIcon } from '../type-icon/type-icon';
 
 export interface CardsProps {
     className?: string;
@@ -17,6 +18,13 @@ export const Cards = ({ className }: CardsProps) => {
             </div>
             <div className={styles.cards}>
                 <div className={classNames(styles.container, styles.container_style)}>
+                    <div className={styles.flex}>
+                        <h1>Squirtle</h1>
+                        <div className={styles.header}>
+                            <TypeIcon />
+                            <p>70</p>
+                        </div>
+                    </div>
                     <div className={styles.imgbox}>
                         <img
                             src="https://files.cults3d.com/uploaders/16165612/illustration-file/d19b7a5e-2e51-40bf-baa6-d25e8bd9ef9f/Eevee_Stand02.jpg"
@@ -27,13 +35,19 @@ export const Cards = ({ className }: CardsProps) => {
                     <div>
                         <h1 className={styles.title}>Eevee</h1>
                         <p className={styles.paragraph}>
-                            Eevee is a Normal-type Pokémon introduced in Generation I.
-                             
-                            Eve is also Dana's daughter. Her husband didn't tell her Eve was a Pokemon name
+                            Eevee is a Normal-type Pokémon introduced in Generation I. Eve is also
+                            Dana's daughter. Her husband didn't tell her Eve was a Pokemon name
                         </p>
                     </div>
                 </div>
                 <div className={classNames(styles.container, styles.container_style)}>
+                    <div className={styles.flex}>
+                        <h1>Squirtle</h1>
+                        <div className={styles.header}>
+                            <TypeIcon />
+                            <p>70</p>
+                        </div>
+                    </div>
                     <div className={styles.imgbox}>
                         <img
                             src="https://cdn.dribbble.com/users/1147613/screenshots/15390615/media/0197f9d885df23a6ab039eedebc40f5b.png"
@@ -42,7 +56,6 @@ export const Cards = ({ className }: CardsProps) => {
                         />
                     </div>
                     <div>
-                        <h1>Squirtle</h1>
                         <p>
                             Squirtle is a Water-type Pokémon introduced in Generation I. It evolves
                             into Wartortle starting at level 16. It is one of the three First
