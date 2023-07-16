@@ -19,7 +19,7 @@ export const Cards = ({ className }: CardsProps) => {
             <div className={styles.cards}>
                 <div className={classNames(styles.container, styles.container_style)}>
                     <div className={styles.flex}>
-                        <h1>Squirtle</h1>
+                        <h1 className={styles.title}>Squirtle</h1>
                         <div className={styles.header}>
                             <TypeIcon />
                             <p>70</p>
@@ -33,10 +33,25 @@ export const Cards = ({ className }: CardsProps) => {
                         />
                     </div>
                     <div>
-                        <h1 className={styles.title}>Eevee</h1>
+                        <div className={styles.flex}>
+                            <TypeIcon />
+                            <h3>Be Prepared</h3>
+                            <h3>12</h3>
+                        </div>
                         <p className={styles.paragraph}>
-                            Eevee is a Normal-type Pokémon introduced in Generation I. Eve is also
-                            Dana's daughter. Her husband didn't tell her Eve was a Pokemon name
+                            Attach a basic Energy card from your hand to this Pokimon{' '}
+                        </p>
+                    </div>
+                    <div>
+                        <div className={styles.flex}>
+                            <TypeIcon />
+                            <TypeIcon />
+                            <TypeIcon />
+                            <h3>Be Prepared</h3>
+                            <h3>12</h3>
+                        </div>
+                        <p className={styles.paragraph}>
+                            Attach a basic Energy card from your hand to this Pokimon{' '}
                         </p>
                     </div>
                 </div>
