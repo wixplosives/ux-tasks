@@ -26,8 +26,8 @@ export const Apply_Style = ({ className }: Apply_StyleProps) => {
             <p className={classNames(styles.Coral, styles.Coral)}>Coral</p>
             <p className={styles.DarkSlateGray}>DarkSlateGray</p>
             <p className={styles.DarkSlateBlue}>DarkSlateBlue</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
+            <p className={styles.DarkTurquoise}>DarkTurquoise</p>
+            <p className={styles.IndianRed}>IndianRed</p>
             <p>This is a paragraph.</p>
             <p>This is a paragraph.</p>
             <p>This is a paragraph.</p>
