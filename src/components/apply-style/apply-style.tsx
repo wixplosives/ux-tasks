@@ -28,23 +28,23 @@ export const Apply_Style = ({ className }: Apply_StyleProps) => {
             <p className={styles.DarkSlateBlue}>DarkSlateBlue</p>
             <p className={styles.DarkTurquoise}>DarkTurquoise</p>
             <p className={styles.IndianRed}>IndianRed</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
-            <p>This is a paragraph.</p>
+            <p className={styles.HotPink}>HotPink</p>
+            <p className={styles.Khaki}>Khaki</p>
+            <p className={styles.LightSeaGreen}>LightSeaGreen</p>
+            <p className={styles.LightSlateGrey}>LightSlateGrey</p>
+            <p className={styles.MediumPurple}>MediumPurple</p>
+            <p className={styles.OrangeRed}>OrangeRed</p>
+            <p className={styles.Sienna}>Sienna</p>
+            <p className={styles.SeaGreen}>SeaGreen</p>
+            <p className={styles.Teal}>Teal</p>
+            <p className={styles.Tomato}>Tomato</p>
+            <p className={styles.Turquoise}>Turquoise</p>
+            <p className={styles.Purple}>Purple</p>
+            <p className={styles.Olive}>Olive</p>
+            <p className={styles.MediumAquaMarine}>MediumAquaMarine</p>
+            <p className={styles.MediumOrchid}>MediumOrchid</p>
+            <p className={styles.LightPink}>LightPink</p>
+            <p className={styles.FireBrick}>FireBrick</p>
         </div>
     );
 };
