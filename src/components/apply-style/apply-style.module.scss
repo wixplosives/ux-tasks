@@ -1,57 +1,49 @@
 .root {
-  padding: 12px 24px;
-  display: flex;
-  justify-content: space-between;
-  column-gap: 76px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, 1fr);
+  gap: 6px;
 }
 
 .orange {
-  color: #ff7900;
-  font-size: 20px;
+  background-color: #ff7900;
 }
 .blue {
-  font-size: 30px;
-  color: #3a8ae3;
-  font-family: 'Cherry Bomb One', cursive;
+  background-color: #3a8ae3;
 }
 
 .red {
-  font-family: Comic Sans MS, cursive;
-  font-size: 30px;
-  color: #ff0000;
+  background-color: #ff0000;
 }
 .pink {
-  font-family: 'Lobster', cursive;
-  color: #ff1493;
-  font-size: 30px;
+  background-color: #ff1493;
 }
 .Violet {
-  color: #8a2be2;
-  font-family: 'Playball', cursive;
-  font-size: 30px;
+  background-color: #8a2be2;
 }
 .black {
-  font-family: 'Lilita One', cursive;
-  color: #000000;
-  font-size: 30px;
+  background-color: #000000;
 }
 .DarkGray {
-  font-family: 'Lilita One', cursive;
-  font-size: 30px;
-  color: #a9a9a9;
+  background-color: #a9a9a9;
 }
 .LightBlue {
-  font-family: 'Cherry Bomb One', cursive;
-  color: #add8e6;
-  font-size: 30px;
+  background-color: #add8e6;
 }
 .LightSkyBlue {
-  font-family: 'Cherry Bomb One', cursive;
-  font-size: 30px;
-  color: #87cefa;
+  background-color: #87cefa;
 }
 .PaleVioletRed {
-  font-family: 'Playball', cursive;
-  font-size: 30px;
-  color: #db7093;
+  background-color: #db7093;
+}
+.Coral {
+  background-color: #ff7f50;
+}
+.DarkSlateGray {
+  background-color: #2f4f4f;
+}
+.DarkSlateBlue {
+  background-color: #483D8B;
 }
