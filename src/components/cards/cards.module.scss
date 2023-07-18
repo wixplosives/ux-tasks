@@ -3,8 +3,8 @@
   padding: 30px;
 }
 .imgbox {
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 220px;
 }
 .img {
   width: 100%;
@@ -16,8 +16,8 @@
 .container {
   border-radius: 20px;
   width: 400px;
-  height: 500px;
-  padding: 20px;
+  height: 100%;
+  padding: 8px 20px 20px;
 
   &:hover {
     background-color: #f4f4f4;
@@ -28,18 +28,20 @@
 }
 
 .container_style {
-  border: 22px solid #ffe65a;
+  border: 15px solid #ffe65a;
   background-color: #f7faf4;
+  width: 300px;
 }
 .paragraph {
-  font-size: 16px;
+  font-size: 10px;
   font-family: Verdana, sans-serif;
-  color: #4d7372;
+  color: #000000;
   line-height: 21px;
+  background-color: transparent;
 }
 .title {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 20px;
   font-family: Tahoma, sans-serif;
   color: #394a58;
 }
@@ -59,8 +61,8 @@
 .header {
   display: flex;
   align-items: center;
-  column-gap: 9px;
-  font-size: 20px;
+  column-gap: 5px;
+  font-size: 25px;
 }
 .flex {
   display: flex;
@@ -74,4 +76,18 @@
   width: 100%;
   height: 100%;
   border: 1px solid black;
+}
+.spacing {
+  margin: -9px 0px -2px;
+}
+.pawer {
+  color: #1e1a1a;
+  font-weight: 600;
+  background-color: transparent;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+}
+.flexicons {
+  display: flex;
+  column-gap: 6px;
 }
