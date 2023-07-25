@@ -1,6 +1,6 @@
 .iconbox {
   background-image: url('https://assets.pokemon.com/static2/_ui/img/cards/energy-types.png');
- background-position: -75px -50px;
+  background-position: -50px -50px;
   width: 25px;
   height: 25px;
   background-color: transparent;
@@ -9,4 +9,44 @@
   background-attachment: scroll;
   background-origin: padding-box;
   background-clip: border-box;
+}
+
+.grass {
+  background-position: -25px 50px;
+}
+
+.colorless {
+  background-position: -25px 0px;
+}
+
+.lightning {
+  background-position: -50px -50px;
+}
+
+.darkness {
+  background-position: 0px -50px;
+}
+
+.fairy {
+  background-position: -50px 0px;
+}
+
+.fire {
+  background-position: 0px 0px;
+}
+
+.psychic {
+  background-position: -75px -25px;
+}
+
+.metal {
+  background-position: -75px 0px;
+}
+
+.water {
+  background-position: -75px -50px;
+}
+
+.fighting {
+  background-position: -50px -25px;
 }
