@@ -3,11 +3,11 @@ import classNames from 'classnames';
 
 export interface TypeIconProps {
     className?: string;
-    energyType: grass | lightninig | darkness | faire | fire | psychic | metal | dragon | water | fighting | colorless;
+    energyType: 'grass' | 'lightninig' | 'darkness' | 'faire' | 'fire' | 'psychic' | 'metal' | 'dragon' | 'water' | 'fighting' | 'colorless';
 }
 
 
 
 export const TypeIcon = ({ className, energyType }: TypeIconProps) => {
-    return <div className={classNames(className, styles.iconbox)}></div>;
+    return <div className={classNames(className, styles.iconbox, styles[energyType])}></div>;
 };
