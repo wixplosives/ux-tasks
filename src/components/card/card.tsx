@@ -5,7 +5,6 @@ import { EnergyType } from '../energy-type/energy-type';
 export interface CardProps {
     imageUrl: string;
     className?: string;
-
 }
 
 /**
@@ -14,10 +13,7 @@ export interface CardProps {
  */
 export const Card = ({ className, imageUrl }: CardProps) => {
     return (
-        <div className={classNames(styles.root, className)}>
-            <div>
-                <h1 className={styles.big_title}>Pokemon cards</h1>
-            </div>
+        <div className={`${className}`}>
             <div>
                 <div className={classNames(styles.container, styles.container_style)}>
                     <div className={classNames(styles.flex, styles.spacing)}>
@@ -27,10 +23,12 @@ export const Card = ({ className, imageUrl }: CardProps) => {
                             <EnergyType className={styles.icon} energyType="colorless" />
                         </div>
                     </div>
-                    <div className={styles.imgbox} style={{
-                        backgroundImage: `url('${imageUrl}')`
+                    <div
+                        className={styles.imgbox}
+                        style={{
+                            backgroundImage: `url('${imageUrl}')`,
                         }}
-                        ></div>
+                    ></div>
                     <div>
                         <div className={styles.flex}>
                             <EnergyType energyType="colorless" />
