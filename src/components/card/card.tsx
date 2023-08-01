@@ -1,6 +1,6 @@
 import styles from './card.module.scss';
 import classNames from 'classnames';
-import { TypeIcon } from '../type-icon/type-icon';
+import { EnergyType } from '../energy-type/energy-type';
 
 export interface CardProps {
     imageUrl: string;
@@ -24,7 +24,7 @@ export const Card = ({ className, imageUrl }: CardProps) => {
                         <h1 className={styles.title}>Eevee</h1>
                         <div className={styles.header}>
                             <p className={styles.pawer}>50</p>
-                            <TypeIcon className={styles.icon} energyType="colorless" />
+                            <EnergyType className={styles.icon} energyType="colorless" />
                         </div>
                     </div>
                     <div className={styles.imgbox} style={{
@@ -33,7 +33,7 @@ export const Card = ({ className, imageUrl }: CardProps) => {
                         ></div>
                     <div>
                         <div className={styles.flex}>
-                            <TypeIcon energyType="colorless" />
+                            <EnergyType energyType="colorless" />
                             <h3>Be Prepared</h3>
                             <h3>12</h3>
                         </div>
@@ -44,9 +44,9 @@ export const Card = ({ className, imageUrl }: CardProps) => {
                     <div>
                         <div className={styles.flex}>
                             <div className={styles.flexicons}>
-                                <TypeIcon energyType="colorless" />
-                                <TypeIcon energyType="colorless" />
-                                <TypeIcon energyType="colorless" />
+                                <EnergyType energyType="colorless" />
+                                <EnergyType energyType="colorless" />
+                                <EnergyType energyType="colorless" />
                             </div>
                             <h3>Be Prepared</h3>
                             <h3>12</h3>
