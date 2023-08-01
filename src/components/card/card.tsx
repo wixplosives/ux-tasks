@@ -1,8 +1,8 @@
-import styles from './cards.module.scss';
+import styles from './card.module.scss';
 import classNames from 'classnames';
 import { TypeIcon } from '../type-icon/type-icon';
 
-export interface CardsProps {
+export interface CardProps {
     imageUrl: string;
     className?: string;
 
@@ -12,7 +12,7 @@ export interface CardsProps {
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
-export const Cards = ({ className, imageUrl }: CardsProps) => {
+export const Card = ({ className, imageUrl }: CardProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div>
