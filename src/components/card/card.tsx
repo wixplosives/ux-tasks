@@ -6,6 +6,7 @@ export interface CardProps {
     imageUrl: string;
     hp: number;
     className?: string;
+    hpType: 'grass' | 'lightninig' | 'darkness' | 'faire' | 'fire' | 'psychic' | 'metal' | 'dragon' | 'water' | 'fighting' | 'colorless';
 }
 
 /**
@@ -20,7 +21,7 @@ export const Card = ({ className, imageUrl, hp }: CardProps) => {
                     <div className={classNames(styles.flex, styles.spacing)}>
                         <h1 className={styles.title}>Eevee</h1>
                         <div className={styles.header}>
-                            <span>HP</span>
+                            <span className={styles.hp}>HP</span>
                             <span className={styles.pawer}>{hp}</span>
                             <EnergyType className={styles.icon} energyType="colorless" />
                         </div>
