@@ -4,6 +4,7 @@ import { EnergyType } from '../energy-type/energy-type';
 
 export interface CardProps {
     imageUrl: string;
+    hp: number;
     className?: string;
 }
 
@@ -11,7 +12,7 @@ export interface CardProps {
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
-export const Card = ({ className, imageUrl }: CardProps) => {
+export const Card = ({ className, imageUrl, hp }: CardProps) => {
     return (
         <div className={`${className}`}>
             <div>
@@ -19,7 +20,8 @@ export const Card = ({ className, imageUrl }: CardProps) => {
                     <div className={classNames(styles.flex, styles.spacing)}>
                         <h1 className={styles.title}>Eevee</h1>
                         <div className={styles.header}>
-                            <p className={styles.pawer}>50</p>
+                            <span>HP</span>
+                            <span className={styles.pawer}>{hp}</span>
                             <EnergyType className={styles.icon} energyType="colorless" />
                         </div>
                     </div>
