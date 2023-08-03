@@ -7,13 +7,14 @@ export interface CardProps {
     hp: number;
     className?: string;
     hpType: 'grass' | 'lightninig' | 'darkness' | 'faire' | 'fire' | 'psychic' | 'metal' | 'dragon' | 'water' | 'fighting' | 'colorless';
+       
 }
 
 /**
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
-export const Card = ({ className, imageUrl, hp }: CardProps) => {
+export const Card = ({ className, imageUrl, hp, hpType }: CardProps) => {
     return (
         <div className={`${className}`}>
             <div>
@@ -23,7 +24,7 @@ export const Card = ({ className, imageUrl, hp }: CardProps) => {
                         <div className={styles.header}>
                             <span className={styles.hp}>HP</span>
                             <span className={styles.pawer}>{hp}</span>
-                            <EnergyType className={styles.icon} energyType="colorless" />
+                            <EnergyType className={styles.icon} energyType={hpType} />
                         </div>
                     </div>
                     <div
