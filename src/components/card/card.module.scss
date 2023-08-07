@@ -63,7 +63,7 @@
 }
 .header {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   column-gap: 5px;
   font-size: 25px;
 }
@@ -97,4 +97,7 @@
 .hp {
   font-size: 12px;
   font-weight: 600;
+}
+.energyTypeIcon {
+  align-self: center;
 }

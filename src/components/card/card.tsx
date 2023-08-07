@@ -6,8 +6,18 @@ export interface CardProps {
     imageUrl: string;
     hp: number;
     className?: string;
-    hpType: 'grass' | 'lightning' | 'darkness' | 'fairy' | 'fire' | 'psychic' | 'metal' | 'dragon' | 'water' | 'fighting' | 'colorless' ; 
-       
+    hpType:
+        | 'grass'
+        | 'lightning'
+        | 'darkness'
+        | 'fairy'
+        | 'fire'
+        | 'psychic'
+        | 'metal'
+        | 'dragon'
+        | 'water'
+        | 'fighting'
+        | 'colorless';
 }
 
 /**
@@ -24,7 +34,10 @@ export const Card = ({ className, imageUrl, hp, hpType }: CardProps) => {
                         <div className={styles.header}>
                             <span className={styles.hp}>HP</span>
                             <span className={styles.pawer}>{hp}</span>
-                            <EnergyType className={styles.icon} energyType={hpType} />
+                            <EnergyType
+                                className={classNames(styles.icon, styles.energyTypeIcon)}
+                                energyType={hpType}
+                            />
                         </div>
                     </div>
                     <div
