@@ -6,7 +6,7 @@ export interface CardProps {
     imageUrl: string;
     hp: number;
     className?: string;
-    hpType: 'grass' | 'lightninig' | 'darkness' | 'faire' | 'fire' | 'psychic' | 'metal' | 'dragon' | 'water' | 'fighting' | 'colorless';
+    hpType: 'grass' | 'lightning' | 'darkness' | 'fairy' | 'fire' | 'psychic' | 'metal' | 'dragon' | 'water' | 'fighting' | 'colorless' ; 
        
 }
 

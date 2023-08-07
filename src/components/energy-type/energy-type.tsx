@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 export interface EnergyTypeProps {
     className?: string;
-    energyType: 'grass' | 'lightninig' | 'darkness' | 'faire' | 'fire' | 'psychic' | 'metal' | 'dragon' | 'water' | 'fighting' | 'colorless';
+    energyType: 'grass' | 'lightning' | 'darkness' | 'fairy' | 'fire' | 'psychic' | 'metal' | 'dragon' | 'water' | 'fighting' | 'colorless';
 }
 
 
