@@ -19,14 +19,11 @@ export const Ability = ({ className }: AbilityProps) => {
                 <EnergyType energyType="colorless" />
                 <EnergyType energyType="colorless" />
             </div>
-            <h3>Be Prepared</h3>
+            <h3>Find a Friend</h3>
             <h3>12</h3>
             <p className={styles.description}>
-                Once during your turn (before your attack), if this Pokémon is on your Bench, you
-                may discard all cards attached to this Pokémon and attach it to 1 of your Pokémon as
-                a Pokémon Tool card. Prevent any damage done to the Pokémon this card is attached to
-                by attacks from your opponent’s Mega Evolution Pokémon. If this card is attached to
-                a Pokémon, discard this card at the end of your opponent’s turn.
+                Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into
+                your hand. Then, shuffle your deck.
             </p>
         </div>
     );
