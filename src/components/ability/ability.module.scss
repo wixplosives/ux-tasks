@@ -1,0 +1,22 @@
+.root {
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: 112px 1fr min-content;
+  column-gap: 16px;
+  align-items: center;
+  row-gap: 24px;
+}
+.energyIcons {
+  display: flex;
+  column-gap: 4px;
+}
+
+.description {
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+  color: #000000;
+  line-height: 21px;
+  background-color: transparent;
+  grid-column-end: 4;
+  grid-column-start: 1;
+}
