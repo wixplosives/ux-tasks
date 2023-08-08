@@ -1,6 +1,7 @@
 import styles from './card.module.scss';
 import classNames from 'classnames';
 import { EnergyType, EnergyTypeOptions } from '../energy-type/energy-type';
+import { Ability } from '../ability/ability';
 
 export interface CardProps {
     name: string;
@@ -8,7 +9,6 @@ export interface CardProps {
     hp: number;
     className?: string;
     hpType: EnergyTypeOptions;
-
 }
 
 /**
@@ -38,28 +38,8 @@ export const Card = ({ className, imageUrl, hp, hpType, name }: CardProps) => {
                         }}
                     ></div>
                     <div>
-                        <div className={styles.flex}>
-                            <EnergyType energyType="colorless" />
-                            <h3>Be Prepared</h3>
-                            <h3>12</h3>
-                        </div>
-                        <p className={styles.paragraph}>
-                            Attach a basic Energy card from your hand to this Pokimon{' '}
-                        </p>
-                    </div>
-                    <div>
-                        <div className={styles.flex}>
-                            <div className={styles.flexicons}>
-                                <EnergyType energyType="colorless" />
-                                <EnergyType energyType="colorless" />
-                                <EnergyType energyType="colorless" />
-                            </div>
-                            <h3>Be Prepared</h3>
-                            <h3>12</h3>
-                        </div>
-                        <p className={styles.paragraph}>
-                            Attach a basic Energy card from your hand to this Pokimon{' '}
-                        </p>
+                        <Ability />
+                        <Ability />
                     </div>
                 </div>
             </div>
