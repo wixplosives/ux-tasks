@@ -12,39 +12,39 @@ export interface ApplyClassProps {
 export const ApplyClass = ({ className }: ApplyClassProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <p>Black</p>
-            <p>LightSlateGrey</p>
+            <div>Black</div>
+            <div>LightSlateGrey</div>
 
-            <p>Dark Gray</p>
-            <p>LightBlue</p>
-            <p>LightSkyBlue</p>
-            <p>Blue</p>
-            <p>DarkSlateBlue</p>
-            <p>Violet</p>
-            <p>MediumPurple</p>
-            <p>MediumOrchid</p>
-            <p>HotPink</p>
-            <p>LightPink</p>
-            <p>FireBrick</p>
-            <p>Red</p>
-            <p>OrangeRed</p>
-            <p>Orange</p>
-            <p>Tomato</p>
-            <p>Coral</p>
-            <p>Sienna</p>
-            <p>IndianRed</p>
-            <p>PaleVioletRed</p>
-            <p>Pink</p>
-            <p>Purple</p>
-            <p>DarkSlateGray</p>
-            <p>SeaGreen</p>
-            <p>MediumAquaMarine</p>
-            <p>Turquoise</p>
-            <p>DarkTurquoise</p>
-            <p>LightSeaGreen</p>
-            <p>Teal</p>
-            <p>Olive</p>
-            <p>Khaki</p>
+            <div>Dark Gray</div>
+            <div>LightBlue</div>
+            <div>LightSkyBlue</div>
+            <div>Blue</div>
+            <div>DarkSlateBlue</div>
+            <div>Violet</div>
+            <div>MediumPurple</div>
+            <div>MediumOrchid</div>
+            <div>HotPink</div>
+            <div>LightPink</div>
+            <div>FireBrick</div>
+            <div>Red</div>
+            <div>OrangeRed</div>
+            <div>Orange</div>
+            <div>Tomato</div>
+            <div>Coral</div>
+            <div>Sienna</div>
+            <div>IndianRed</div>
+            <div>PaleVioletRed</div>
+            <div>Pink</div>
+            <div>Purple</div>
+            <div>DarkSlateGray</div>
+            <div>SeaGreen</div>
+            <div>MediumAquaMarine</div>
+            <div>Turquoise</div>
+            <div>DarkTurquoise</div>
+            <div>LightSeaGreen</div>
+            <div>Teal</div>
+            <div>Olive</div>
+            <div>Khaki</div>
         </div>
     );
 };
