@@ -12,13 +12,11 @@ export interface CardArticleProps {
 export const CardArticle = ({ className }: CardArticleProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <div className={styles.image}>
-                <img
-                    src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*3lct_jVlPzR19E9p5AI7jQ.jpeg"
-                    alt=""
-                    className={styles.image}
-                />
-            </div>
+            <img
+                src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*3lct_jVlPzR19E9p5AI7jQ.jpeg"
+                alt=""
+                className={styles.image}
+            />
             <div className={styles.content}>
                 <h1 className={styles.title}>
                     ChatGPT &amp; Beyond: A Next-Gen Wave in Personalized UX/UI Design
