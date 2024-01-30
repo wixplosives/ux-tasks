@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 239px;
 }
 
 .title {
@@ -43,4 +44,6 @@
     min-width: 280px;
 }
 
-.textBox {}
+.textBox {
+    min-height: 188px;
+}
