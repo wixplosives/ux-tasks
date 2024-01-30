@@ -6,6 +6,6 @@ export default createBoard({
     Board: () => <CardArticle />,
     isSnippet: true,
     environmentProps: {
-        windowWidth: 730,
+        windowWidth: 630,
     },
 });

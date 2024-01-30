@@ -6,23 +6,28 @@
 }
 
 .image {
-    max-width: 334px;
-    max-height: 251px;
-    min-height: 200px;
+    max-width: 100%;
+    height: auto;
 }
 
 .content {
     margin-left: 18px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .title {
     font-family: Georgia, serif;
+    font-size: 16px;
 }
 
 .runText {
     font-weight: 100;
     font-family: Arial, sans-serif;
-    line-height: 24px;
+    line-height: 16px;
+    font-size: 11px;
 }
 
 .button {
@@ -30,4 +35,12 @@
     color: #B6C3CA;
     padding: 10px 12px;
     border-radius: 26px;
+    width: 130px;
 }
+
+.imageBox {
+    max-width: 351px;
+    min-width: 280px;
+}
+
+.textBox {}
