@@ -1,0 +1,31 @@
+.root {
+    display: flex;
+    flex-direction: row;
+    padding: 18px;
+}
+
+.image {
+    width: 334px;
+    height: 251px;
+}
+
+.content {
+    margin-left: 18px;
+}
+
+.title {
+    font-family: Georgia, serif;
+}
+
+.runText {
+    font-weight: 100;
+    font-family: Arial, sans-serif;
+    line-height: 24px;
+}
+
+.button {
+    background-color: #1A1A22;
+    color: #B6C3CA;
+    padding: 10px 12px;
+    border-radius: 26px;
+}
