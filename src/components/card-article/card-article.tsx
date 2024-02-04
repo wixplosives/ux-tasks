@@ -14,7 +14,7 @@ export const CardArticle = ({ className }: CardArticleProps) => {
         <div className={classNames(styles.root, className)}>
             <div className={styles.imageBox}>
                 <img
-                    src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*3lct_jVlPzR19E9p5AI7jQ.jpeg"
+                    src="https://cdn.dribbble.com/userupload/12190560/file/original-d6d2027a27aa630f756ce2888a6e32f5.jpg?resize=1504x1128"
                     alt=""
                     className={styles.image}
                 />
