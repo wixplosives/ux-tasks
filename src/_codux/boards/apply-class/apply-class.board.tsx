@@ -3,5 +3,9 @@ import { ApplyClass } from '../../../components/apply-class/apply-class';
 
 export default createBoard({
     name: 'ApplyClass',
-    Board: () => <ApplyClass />
+    Board: () => <ApplyClass />,
+    environmentProps: {
+        windowWidth: 414,
+        windowHeight: 896,
+    },
 });

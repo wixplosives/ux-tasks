@@ -6,7 +6,7 @@ export default createBoard({
     Board: () => <ArticalsPage />,
     isSnippet: true,
     environmentProps: {
-        windowWidth: 1286,
-        windowHeight: 682,
+        windowWidth: 1802,
+        windowHeight: 1080,
     },
 });
