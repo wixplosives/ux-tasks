@@ -32,7 +32,7 @@ export const CardArticle = ({ className }: CardArticleProps) => {
                         fostering creative co-creation, and unlocking personalized, adaptive, and
                         dynamically evolving user interfaces. As generative AI continues to evolve,
                         its impact on UX/UI design is poised to transcend boundaries, shaping the
-                        future of digital interactions in profound ways.{' '}
+                        future of digital interactions in profound ways.
                     </h4>
                 </div>
                 <button className={styles.button}>Read More</button>
