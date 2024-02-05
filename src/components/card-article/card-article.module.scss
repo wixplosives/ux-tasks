@@ -12,7 +12,10 @@
     .root {
         flex-direction: column;
         max-width: 760px;
-        margin-top: 0px;
+
+        &:hover {
+            background-color: #121111;
+        }
     }
 }
 
