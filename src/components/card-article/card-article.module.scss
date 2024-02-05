@@ -8,6 +8,13 @@
     background-color: #353232;
 }
 
+
+
+.root:hover .content{
+    color:yellow;
+}
+
+
 @media only screen and (max-width: 702px) {
     .root {
         flex-direction: column;
