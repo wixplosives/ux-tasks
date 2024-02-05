@@ -28,11 +28,7 @@ export const CardArticle = ({ className }: CardArticleProps) => {
                         In the realm of digital design, generative AI emerges as a transformative
                         force, poised to revolutionized the way UX/UI designers craft exceptional
                         user experiences. This remarkable tool, with its autonomous content
-                        generation capabilities, holds the promise of automating repetitive tasks,
-                        fostering creative co-creation, and unlocking personalized, adaptive, and
-                        dynamically evolving user interfaces. As generative AI continues to evolve,
-                        its impact on UX/UI design is poised to transcend boundaries, shaping the
-                        future of digital interactions in profound ways.{' '}
+                        generation capabilities, holds the promise of automating repetitive{' '}
                     </h4>
                 </div>
                 <button className={styles.button}>Read More</button>

@@ -16,12 +16,20 @@ export const ArticalsPage = ({ className }: ArticalsPageProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div>
-                <CardArticle />
-                <CardArticle />
+                <div className={styles.articlesItem}>
+                    <CardArticle />
+                </div>
+                <div className={styles.articlesItem}>
+                    <CardArticle />
+                </div>
             </div>
             <div>
-                <CardArticle />
-                <CardArticle />
+                <div className={styles.articlesItem}>
+                    <CardArticle />
+                </div>
+                <div className={styles.articlesItem}>
+                    <CardArticle />
+                </div>
             </div>
         </div>
     );
