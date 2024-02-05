@@ -1,7 +1,7 @@
 .root {
   display: flex;
   flex-direction: row;
-  width: 750px;
+  max-width: 750px;
   border-radius: 4px;
   border: 1px solid #ffffff;
   padding: 18px;
@@ -10,7 +10,7 @@
 @media only screen and (max-width: 788px) {
   .root {
     flex-direction: column;
-    width: 760px;
+    max-width: 760px;
   }
 }
 
@@ -54,7 +54,6 @@
 
 @media only screen and (min-width: 788px) {
   .runText {
-    font-size: 24px;
     color: aliceblue;
   }
 }
@@ -70,7 +69,6 @@
 .imageBox {
   padding-right: 18px;
   width: 100%;
-  min-width: 280px;
 }
 
 @media only screen and (max-width: 788px) {

@@ -7,13 +7,13 @@ export default createBoard({
     Board: () => <CardArticle className={CardArticle_module.textBox} />,
     isSnippet: true,
     environmentProps: {
-        windowWidth: 658,
+        windowWidth: 300,
         canvasHeight: 332,
-        windowHeight: 1024,
+        windowHeight: 896,
         canvasWidth: 710,
         canvasMargin: {
             top: 87,
-            right: 0,
+            right: 6,
             bottom: 87,
             left: 0,
         },

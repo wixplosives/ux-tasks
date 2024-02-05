@@ -3,5 +3,8 @@ import { NewClass } from '../../../components/new-class/new-class';
 
 export default createBoard({
     name: 'NewClass',
-    Board: () => <NewClass />
+    Board: () => <NewClass />,
+    environmentProps: {
+        windowWidth: 992,
+    },
 });
