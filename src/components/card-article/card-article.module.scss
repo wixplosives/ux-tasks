@@ -1,83 +1,87 @@
 .root {
-  display: flex;
-  flex-direction: row;
-  max-width: 750px;
-  border-radius: 4px;
-  border: 1px solid #ffffff;
-  padding: 18px;
+    display: flex;
+    flex-direction: row;
+    max-width: 750px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    padding: 18px;
+    background-color: #353232;
 }
 
 @media only screen and (max-width: 788px) {
-  .root {
-    flex-direction: column;
-    max-width: 760px;
-  }
+    .root {
+        flex-direction: column;
+        max-width: 760px;
+    }
 }
 
 .image {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .content {
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media only screen and (min-width: 788px) {
-  .content {
-    width: 100%;
-  }
+    .content {
+        width: 100%;
+    }
 }
 
 .title {
-  font-family: Georgia, serif;
-  font-size: 16px;
-  color: #51e5b5;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: #51e5b5;
 }
 
 @media only screen and (min-width: 788px) {
-  .title {
-    font-size: 24px;
-    color: aliceblue;
-  }
+    .title {
+        font-size: 24px;
+        color: aliceblue;
+    }
 }
 
 .runText {
-  font-weight: 100;
-  font-family: Arial, sans-serif;
-  line-height: 16px;
-  font-size: 11px;
+    font-weight: 100;
+    font-family: Arial, sans-serif;
+    line-height: 16px;
+    font-size: 11px;
 }
 
 @media only screen and (min-width: 788px) {
-  .runText {
-    color: aliceblue;
-  }
+    .runText {
+        color: aliceblue;
+    }
 }
 
 .button {
-  background-color: #51e5b5;
-  color: #000000;
-  padding: 10px 12px;
-  border-radius: 26px;
-  width: 130px;
+    background-color: #51e5b5;
+    color: #000000;
+    padding: 10px 12px;
+    border-radius: 26px;
+    width: 130px;
+
+    &:hover {
+        background-color: #00FFAC;
+    }
 }
 
 .imageBox {
-  padding-right: 18px;
-  width: 100%;
+    padding-right: 18px;
+    width: 100%;
 }
 
 @media only screen and (max-width: 788px) {
-  .imageBox {
-    width: 100%;
-  }
+    .imageBox {
+        width: 100%;
+    }
 }
 
 .textBox {
-  min-height: 188px;
-  background-color: #353232;
+    min-height: 188px;
 }
