@@ -27,8 +27,7 @@ export const CardArticle = ({ className }: CardArticleProps) => {
                     <h4 className={styles.runText}>
                         In the realm of digital design, generative AI emerges as a transformative
                         force, poised to revolutionized the way UX/UI designers craft exceptional
-                        user experiences. This remarkable tool, with its autonomous content
-                        generation capabilities, holds the promise of automating repetitive{' '}
+                        user experiences.{' '}
                     </h4>
                 </div>
                 <button className={styles.button}>Read More</button>

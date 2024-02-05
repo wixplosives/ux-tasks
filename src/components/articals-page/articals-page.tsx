@@ -16,19 +16,24 @@ export const ArticalsPage = ({ className }: ArticalsPageProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div>
-                <div className={styles.articlesItem}>
-                    <CardArticle />
-                </div>
-                <div className={styles.articlesItem}>
-                    <CardArticle />
-                </div>
+                <h1>UX News</h1>
             </div>
-            <div>
-                <div className={styles.articlesItem}>
-                    <CardArticle />
+            <div className={styles.articalLayout}>
+                <div>
+                    <div className={styles.articlesItem}>
+                        <CardArticle />
+                    </div>
+                    <div className={styles.articlesItem}>
+                        <CardArticle />
+                    </div>
                 </div>
-                <div className={styles.articlesItem}>
-                    <CardArticle />
+                <div>
+                    <div className={styles.articlesItem}>
+                        <CardArticle />
+                    </div>
+                    <div className={styles.articlesItem}>
+                        <CardArticle />
+                    </div>
                 </div>
             </div>
         </div>

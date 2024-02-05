@@ -1,7 +1,21 @@
 .root {
     display: flex;
+    flex-direction: column;
+    padding: 24px;
 }
 
 .articlesItem {
     padding: 6px;
+}
+
+.articalLayout {
+    display: flex;
+}
+
+@media only screen and (max-width: 1264px) {
+    .articalLayout {
+        width: 100%;
+        flex-direction: column;
+
+    }
 }
