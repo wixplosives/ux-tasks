@@ -3,32 +3,29 @@ import classNames from 'classnames';
 
 export interface CardArticleProps {
     className?: string;
+    text: string;
+    runText: string;
+    articalImage: string;
 }
 
 /**
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
-export const CardArticle = ({ className }: CardArticleProps) => {
+export const CardArticle = ({ className, text, runText,articalImage }: CardArticleProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles.imageBox}>
                 <img
-                    src="https://cdn.dribbble.com/userupload/12190560/file/original-d6d2027a27aa630f756ce2888a6e32f5.jpg?resize=1504x1128"
+                    src={articalImage}
                     alt=""
                     className={styles.image}
                 />
             </div>
             <div className={styles.content}>
                 <div className={styles.textBox}>
-                    <div className={styles.title}>
-                        ChatGPT &amp; Beyond: A Next-Gen Wave in Personalized UX/UI Design
-                    </div>
-                    <h4 className={styles.runText}>
-                        In the realm of digital design, generative AI emerges as a transformative
-                        force, poised to revolutionized the way UX/UI designers craft exceptional
-                        user experiences.{' '}
-                    </h4>
+                    <div className={styles.title}>{text}</div>
+                    <h4 className={styles.runText}>{runText}</h4>
                 </div>
                 <button className={styles.button}>Read More</button>
             </div>
