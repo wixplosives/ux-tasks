@@ -6,12 +6,14 @@
     border: 1px solid #ffffff;
     padding: 18px;
     background-color: #353232;
+    height: 244px;
+
 }
 
 
 
-.root:hover .content{
-    color:yellow;
+.root:hover .content {
+    color: yellow;
 }
 
 
@@ -28,7 +30,9 @@
 
 .image {
     width: 100%;
-    height: auto;
+    max-height: 244px;
+    object-fit: cover;
+    height: 100%;
 }
 
 .content {
@@ -56,6 +60,8 @@
     font-family: Arial, sans-serif;
     line-height: 16px;
     font-size: 11px;
+    overflow: hidden;
+    max-height: 130px;
 }
 
 
@@ -84,5 +90,5 @@
 }
 
 .textBox {
-    min-height: 188px;
+    max-width: 656px;
 }

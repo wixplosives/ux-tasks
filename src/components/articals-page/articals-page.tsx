@@ -38,7 +38,7 @@ export const ArticalsPage = ({ className }: ArticalsPageProps) => {
                 <div>
                     <div className={styles.articlesItem}>
                         <CardArticle
-                            articalImage="https://cdn.dribbble.com/userupload/4626001/file/original-ac51c408207c158939621684f04912d9.png?resize=752x"
+                            articalImage="https://static.wixstatic.com/media/11062b_4702ac7a75d4410a8a3aee35d4275fb2~mv2.jpg/v1/fill/w_1200,h_742,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Modern%20Art.jpg"
                             runText="In the realm of digital design, generative AI emerges as a transformative                         force, poised to revolutionized the way UX/UI designers craft exceptional                         user experiences."
                             text="ChatGPT &amp; Beyond: A Next-Gen Wave in Personalized UX/UI Design"
                         />
