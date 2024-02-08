@@ -7,7 +7,6 @@
     padding: 18px;
     background-color: #353232;
     height: 244px;
-
 }
 
 
@@ -25,6 +24,8 @@
         &:hover {
             background-color: #121111;
         }
+
+        height:unset;
     }
 }
 
@@ -45,6 +46,7 @@
 @media only screen and (min-width: 702px) {
     .content {
         width: 100%;
+
     }
 }
 
