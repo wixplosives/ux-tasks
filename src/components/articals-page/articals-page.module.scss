@@ -1,7 +1,10 @@
 .root {
     display: flex;
     flex-direction: column;
-    padding: 24px;;
+    padding: 24px;
+    align-items: center;
+    background-color: #E7E7E7;
+    ;
 }
 
 .articlesItem {
@@ -18,6 +21,12 @@
         flex-direction: column;
     }
 
-    .root {
-    }
+
+}
+
+.titlePage {
+    display: flex;
+    flex-direction: row;
+    align-self: start;
+    padding-left: 0.3em;
 }
