@@ -14,7 +14,7 @@ export const Menu = ({ className }: MenuProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles.navRight}>
-                <div className={styles.logo}>Logo</div>
+                <div className={styles.logo}>Blog Logo</div>
                 <nav className={styles.nav}>
                     <a href="/home" className={styles.navLink}>
                         Articals

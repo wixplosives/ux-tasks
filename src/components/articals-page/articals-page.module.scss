@@ -1,32 +1,30 @@
 .root {
-    display: flex;
-    flex-direction: column;
-    padding: 24px;
-    align-items: center;
-    background-color: #E7E7E7;
-    ;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 29px;
+  align-items: center;
+  background-color: #353232;
 }
 
 .articlesItem {
-    padding: 6px;
+  padding: 6px;
 }
 
 .articalLayout {
-    display: flex;
+  display: flex;
 }
 
 @media only screen and (max-width: 1264px) {
-    .articalLayout {
-        width: 100%;
-        flex-direction: column;
-    }
-
-
+  .articalLayout {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 
 .titlePage {
-    display: flex;
-    flex-direction: row;
-    align-self: start;
-    padding-left: 0.3em;
+  display: flex;
+  flex-direction: row;
+  align-self: start;
+  padding-left: 0.3em;
+  color: #ffffff;
 }

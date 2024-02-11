@@ -2,10 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #353232;
+  border-bottom: 1px solid #8a8a8a;
+  padding-bottom: 16px;
+  padding-top: 16px;
 }
 .logo {
-  margin-right: 12px;
   color: #ffffff;
   font-size: 2em;
   font-weight: 700;
@@ -14,10 +15,13 @@
 }
 .navRight {
   display: flex;
-  align-items: center;
+  align-items: end;
+  column-gap: 24px;
 }
 .navLeft {
   display: flex;
+  align-items: end;
+  column-gap: 24px;
 }
 
 .button {
@@ -42,6 +46,6 @@
   text-decoration: None;
   &:hover {
     text-decoration: underline;
-    color:#51e5b5;
+    color: #51e5b5;
   }
 }

@@ -13,5 +13,7 @@ export default createBoard({
             left: 0,
         },
         windowWidth: 1174,
+        canvasBackgroundColor: '#000000',
+        windowBackgroundColor: '#000000',
     },
 });

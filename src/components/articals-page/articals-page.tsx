@@ -16,8 +16,8 @@ export interface ArticalsPageProps {
 export const ArticalsPage = ({ className }: ArticalsPageProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <Menu />
             <div>
+                <Menu />
                 <div className={styles.titlePage}>
                     <h1>UX News</h1>
                 </div>
