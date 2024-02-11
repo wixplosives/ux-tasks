@@ -9,8 +9,8 @@ export default createBoard({
     Board: () => <ArticalsPage />,
     isSnippet: true,
     environmentProps: {
-        windowWidth: 1080,
-        windowHeight: 768,
+        windowWidth: 1396,
+        windowHeight: 1180,
         canvasHeight: 673,
         canvasWidth: 716,
         canvasMargin: {

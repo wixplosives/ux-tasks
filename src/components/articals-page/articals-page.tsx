@@ -2,6 +2,7 @@ import styles from './articals-page.module.scss';
 import classNames from 'classnames';
 import { CardArticle } from '../card-article/card-article';
 import CardArticle_module from '../card-article/card-article.module.scss';
+import { Menu } from '../menu/menu';
 
 export interface ArticalsPageProps {
     className?: string;
@@ -15,6 +16,7 @@ export interface ArticalsPageProps {
 export const ArticalsPage = ({ className }: ArticalsPageProps) => {
     return (
         <div className={classNames(styles.root, className)}>
+            <Menu />
             <div>
                 <div className={styles.titlePage}>
                     <h1>UX News</h1>
