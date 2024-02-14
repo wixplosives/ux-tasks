@@ -13,11 +13,21 @@
 .articalLayout {
   display: flex;
 }
-
-@media only screen and (max-width: 1264px) {
+/* mobile or tablet */
+@media (width <= 702px), (702px < width <= 1264px) {
   .articalLayout {
     width: 100%;
     flex-direction: column;
+  }
+  .root{
+     background-color:brown;
+  }
+}
+
+/* desktop */
+@media (width > 1264px) {
+  .root {
+    background: rebeccapurple;
   }
 }
 
