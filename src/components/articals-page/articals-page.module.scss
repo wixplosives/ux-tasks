@@ -23,6 +23,16 @@
      background-color:brown;
   }
 }
+/* mobile */
+@media (width <= 702px){
+  .articalLayout {
+    width: 100%;
+    flex-direction: column;
+  }
+  .root{
+     background-color:cadetblue;
+  }
+}
 
 /* desktop */
 @media (width > 1264px) {
