@@ -19,25 +19,24 @@
     width: 100%;
     flex-direction: column;
   }
-  .root{
-     background-color:brown;
+  .root {
+    flex-direction: column;
   }
 }
 /* mobile */
-@media (width <= 702px){
+@media (width <= 702px) {
   .articalLayout {
     width: 100%;
     flex-direction: column;
   }
-  .root{
-     background-color:cadetblue;
+  .root {
   }
 }
 
 /* desktop */
 @media (width > 1264px) {
   .root {
-    background: rebeccapurple;
+    background: rgb(53, 50, 50);
   }
 }
 

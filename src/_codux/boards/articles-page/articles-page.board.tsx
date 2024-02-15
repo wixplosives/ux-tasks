@@ -1,16 +1,16 @@
 import { createBoard } from '@wixc3/react-board';
-import { ArticalsPage } from '../../../components/articals-page/articals-page';
-import ArticalsPage_module from '../../../components/articals-page/articals-page.module.scss';
+import { ArticlesPage } from '../../../components/articles-page/articles-page';
+import ArticlesPage_module from '../../../components/articles-page/articles-page.module.scss';
 import CardArticle_module from '../../../components/card-article/card-article.module.scss';
 import Classnames from 'classnames';
 
 export default createBoard({
-    name: 'ArticalsPage',
-    Board: () => <ArticalsPage />,
+    name: 'ArticlesPage',
+    Board: () => <ArticlesPage />,
     isSnippet: true,
     environmentProps: {
-        windowWidth: 1332,
-        windowHeight: 768,
+        windowWidth: 1154,
+        windowHeight: 800,
         canvasHeight: 673,
         canvasWidth: 716,
         canvasMargin: {
