@@ -17,7 +17,6 @@
 @media (width <= 702px), (702px < width <= 1264px) {
   .articalLayout {
     width: 100%;
-    flex-direction: column;
   }
   .root {
     flex-direction: column;
@@ -27,7 +26,6 @@
 @media (width <= 702px) {
   .articalLayout {
     width: 100%;
-    flex-direction: column;
   }
   .root {
   }

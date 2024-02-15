@@ -1,89 +1,81 @@
 .root {
-    display: flex;
-    flex-direction: row;
-    max-width: 656px;
-    border-radius: 4px;
-    border: 1px solid #ffffff;
-    padding: 18px;
-    background-color: #353232;
-    height: 244px;
+  display: flex;
+  flex-direction: row;
+  max-width: 656px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  padding: 18px;
+  background-color: #353232;
+  height: 244px;
 }
 
-
-
 .root:hover .content {
-    color: yellow;
+  color: yellow;
 }
 
 /*mobile*/
 @media (width <= 702px) {
-    .root {
-        flex-direction: column;
-        max-width: 760px;
+  .root {
+    max-width: 760px;
 
-        &:hover {
-            background-color: #121111;
-        }
+    &:hover {
+      background-color: #121111;
+    }
 
-        height:unset;
-    }
-     .imageBox {
-        width: 100%;
-        padding-bottom: 12px;
-    }
+    height: unset;
+  }
+  .imageBox {
+    width: 100%;
+    padding-bottom: 12px;
+  }
 }
 
 .image {
-    width: 100%;
-    max-height: 244px;
-    object-fit: cover;
-    height: 100%;
+  width: 100%;
+  max-height: 244px;
+  object-fit: cover;
+  height: 100%;
 }
 
 .content {
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
-
 
 .title {
-    font-family: Georgia, serif;
-    font-size: 16px;
-    color: #51e5b5;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: #51e5b5;
 }
-
 
 .runText {
-    font-weight: 100;
-    font-family: Arial, sans-serif;
-    line-height: 16px;
-    font-size: 11px;
-    overflow: hidden;
-    max-height: 130px;
+  font-weight: 100;
+  font-family: Arial, sans-serif;
+  line-height: 16px;
+  font-size: 11px;
+  overflow: hidden;
+  max-height: 130px;
 }
 
-
 .button {
-    background-color: #51e5b5;
-    color: #000000;
-    padding: 10px 12px;
-    border-radius: 26px;
-    width: 130px;
+  background-color: #51e5b5;
+  color: #000000;
+  padding: 10px 12px;
+  border-radius: 26px;
+  width: 130px;
 
-    &:hover {
-        background-color: #00ffac;
-    }
+  &:hover {
+    background-color: #00ffac;
+  }
 }
 
 .imageBox {
-    padding-right: 18px;
-    width: 100%;
+  padding-right: 18px;
+  width: 100%;
 }
 
-
 .textBox {
-    max-width: 656px;
+  max-width: 656px;
 }
